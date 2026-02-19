@@ -15,8 +15,22 @@ body{
   position:absolute;
     right:20px;   
     top:80px;
-    border-radius: 5px;
+    border-radius: 20px;
+    border: none;
+    background: navy;
+    color: white;
+    height: 45px;
+    width: 60px;
+    cursor: pointer;
+    transition: 0.3s ease;
+    font-size: 14px;
+    
 }
+#mode:hover{
+    background: linear-gradient(45deg, royalblue, navy);
+    transform: scale(1.05);
+}
+
 .animated-title {
   font-size: 24px;
   font-weight: 600;
